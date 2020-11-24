@@ -126,7 +126,7 @@ ol {
 }
 
 .section-title h2 {
-	font-size: 42px;
+	font-size: 35px;
 	color: #111111;
 	line-height: 50px;
 	text-transform: uppercase;
@@ -2540,6 +2540,15 @@ ol {
 	color: #111111;
 	display: block;
 }
+
+.contact__widget__item__text a:hover {
+	color: #da1f14;
+}
+
+.contact__widget__item__text a::after {
+	color: #da1f14;
+}
+
 
 .map {
 	height: 460px;
