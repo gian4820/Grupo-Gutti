@@ -1,0 +1,338 @@
+AWSTATS DATA FILE 7.7 (build 20180105)
+# If you remove this file, all statistics for date 202010 will be lost/reset.
+# Last config file used to build this data file was /home/gutti/tmp/awstats/ssl/awstats.grupogutti.com.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2012                
+POS_TIME 2689                
+POS_VISITOR 7076                
+POS_DAY 8330                
+POS_DOMAIN 3308                
+POS_LOGIN 3668                
+POS_ROBOT 3823                
+POS_WORMS 4134                
+POS_EMAILSENDER 4265                
+POS_EMAILRECEIVER 4408                
+POS_SESSION 8686                
+POS_SIDER 8864                
+POS_FILETYPES 4543                
+POS_DOWNLOADS 4734                
+POS_OS 4782                
+POS_BROWSER 4947                
+POS_SCREENSIZE 5405                
+POS_UNKNOWNREFERER 5479                
+POS_UNKNOWNREFERERBROWSER 5600                
+POS_ORIGIN 5716                
+POS_SEREFERRALS 5849                
+POS_PAGEREFS 6034                
+POS_SEARCHWORDS 6273                
+POS_KEYWORDS 6425                
+POS_MISC 2353                
+POS_ERRORS 6484                
+POS_CLUSTER 3524                
+POS_SIDER_404 6594                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20201024203750 16 2218 8766601893026
+FirstTime 20201006052855
+LastTime 20201024203717
+LastUpdate 20201025012130 16 0 16 0 0
+TotalVisits 34                  
+TotalUnique 25                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 29                  
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+AddToFavourites 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+TotalMisc 0 0 0
+RealPlayerSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 0 0 0 2 2 0
+1 3 3 25148 1 1 8498
+2 0 0 0 2 6 45686
+3 3 3 8498 3 4 13274
+4 0 0 0 1 11 273259
+5 1 1 0 3 13 232727
+6 0 0 0 0 1 6323
+7 2 2 16996 1 1 7787
+8 3 3 0 1 5 64077
+9 0 0 0 4 6 21977
+10 7 7 109524 5 16 244697
+11 5 5 84203 6 6 8603
+12 10 11 222269 1 2 8498
+13 0 0 0 5 11 82778
+14 21 109 2994640 3 6 0
+15 1 1 0 4 6 39679
+16 0 0 0 2 4 8498
+17 0 2 292942 1 9 144464
+18 2 2 8498 1 3 14379
+19 0 1 37581 2 5 19136
+20 4 4 48950 9 9 6952
+21 1 1 0 1 8 213729
+22 0 0 0 1 7 171421
+23 6 6 8498 5 6 0
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 11
+gb 34 122 3087133
+de 15 15 0
+us 8 8 49972
+fr 5 5 160081
+ca 2 2 16996
+ru 2 2 24472
+ar 2 2 16996
+cn 1 1 8498
+mx 0 2 200657
+gt 0 1 37581
+pe 0 1 255361
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 5
+Googlebot/ 46 974293 20201021221507 0
+Googlebot\-Image/ 22 517924 20201021172031 0
+bingbot/ 2 16285 20201016135747 0
+Dalvik/ 1 8498 20201021033905 0
+crawl 1 8498 20201019094125 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 7
+png 29 998049 0 0
+js 32 1076464 0 0
+css 2 24160 0 0
+gif 14 21360 0 0
+Unknown 4 48950 0 0
+jpg 15 1224326 0 0
+html 65 464438 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 0
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 8
+win10 5 3
+Unknown 4 4
+macosx11 1 1
+win8.1 2 1
+linuxandroid 33 1
+linux 74 17
+macosx 29 29
+win7 13 13
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 18
+chrome74.0.3694.0 32 1
+chrome85.0.4183.127 1 0
+chrome51.0.2704.103 2 2
+chrome73.0.3683.86 22 22
+chrome40.0.2214.85 10 10
+chrome83.0.4103.97 71 14
+chrome66.0.3359.117 1 1
+chrome57.0.2987.110 1 1
+chrome41.0.2226.0 1 1
+chrome86.0.4240.111 1 0
+chrome86.0.4240.75 1 0
+firefox58.0 7 7
+chrome40.0.2214.93 2 2
+chrome76.0.3809.132 2 2
+chrome79.0.3945.0 1 0
+Unknown 4 4
+chrome67.0.3396.99 1 1
+chrome47.0.2526.106 1 1
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 1
+Go-http-client/1.1 20201024203717
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 1
+Go-http-client/1.1 20201024203717
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 66 66
+From1 0 0
+From2 0 4
+From3 2 2
+From4 1 89
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 2
+www_google_com 0 3
+www_google_com_mx 0 1
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 2
+http://cpanel.grupogutti.com/.git/config 1 1
+http://webmail.grupogutti.com/.git/config 1 1
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 3
+206 13 110474
+401 16 470
+404 46 0
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 6
+/.git/config 3 -
+/asset-manifest.json 1 https://grupogutti.com/
+/loader.gif 2 -
+/robots.txt 27 -
+/.well-known/apple-app-site-association 6 -
+/apple-app-site-association 7 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 29
+163.172.137.51 11 68 1937736 20201012144538
+138.246.253.15 10 10 0 20201024181812
+51.15.202.44 9 9 59193 20201012144501
+51.15.252.199 9 9 59193 20201015120706
+213.211.241.42 5 5 0 20201007230812
+51.15.191.81 2 2 16650 20201009110312
+62.210.5.253 2 2 75878 20201009113716
+51.15.211.223 2 2 16996 20201012144536
+190.190.128.46 2 2 16996 20201022075809
+195.154.61.206 2 2 46258 20201009105512
+104.155.175.232 1 1 8498 20201011014531
+113.31.115.156 1 1 8498 20201021033903
+138.197.131.30 1 1 0 20201008084646
+185.220.102.241 1 1 12240 20201024203705 20201024203705 /.git/config
+23.106.58.150 1 1 12235 20201024203710 20201024203710 /.git/config
+62.4.14.206 1 1 37945 20201009100654
+138.197.152.122 1 1 0 20201008084647
+163.172.169.180 1 32 997365 20201012144518
+185.220.100.252 1 1 12232 20201024203704 20201024203704 /.git/config
+138.197.148.89 1 1 0 20201006052855
+47.74.84.224 1 1 8498 20201014102630
+45.91.23.42 1 1 8498 20201011233412
+198.20.103.242 1 1 8498 20201014181239
+47.74.86.63 1 1 8498 20201014102633
+199.249.230.185 1 1 12243 20201024203717 20201024203717 /.git/config
+179.6.217.21 0 1 255361 
+190.106.194.1 0 1 37581 
+177.228.37.9 0 1 37581 
+189.229.162.64 0 1 163076 
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 15
+20201006 1 1 0 1
+20201007 5 5 0 1
+20201008 3 3 0 3
+20201009 9 9 193381 5
+20201011 2 2 16996 2
+20201012 21 109 2994640 4
+20201013 0 1 163076 0
+20201014 3 3 25494 3
+20201015 9 9 59193 1
+20201016 4 4 0 3
+20201017 1 1 0 1
+20201021 1 1 8498 1
+20201022 2 3 272357 1
+20201023 2 2 0 2
+20201024 6 8 124112 6
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 4
+30mn-1h 2
+0s-30s 26
+2mn-5mn 1
+5mn-15mn 1
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 9
+/ 44 337847 30 27
+/.git/config 4 48950 4 0
+/galeria.html 3 25068 0 0
+/fabrica.html 3 20076 0 1
+/productos.html 3 23361 0 0
+/contacto.html 3 14328 0 0
+/franquicias.html 3 14772 0 2
+/showroom.html 3 14943 0 0
+/servicios.html 3 14043 0 0
+END_SIDER

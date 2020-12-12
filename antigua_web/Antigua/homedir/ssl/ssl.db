@@ -1,0 +1,87 @@
+--- 
+files: 
+  certificate: 
+    grupogutti_com_c7ee2_3a057_1609977599_14dfa37a2a82e86417e6f6d2e486593f: 
+      created: '1602122765'
+      domains: 
+        - grupogutti.com
+        - cpanel.grupogutti.com
+        - cpcalendars.grupogutti.com
+        - cpcontacts.grupogutti.com
+        - mail.grupogutti.com
+        - webdisk.grupogutti.com
+        - webmail.grupogutti.com
+        - www.grupogutti.com
+      friendly_name: Cert for “grupogutti.com” 1602122765.0
+      id: grupogutti_com_c7ee2_3a057_1609977599_14dfa37a2a82e86417e6f6d2e486593f
+      is_self_signed: 0
+      issuer.commonName: cPanel, Inc. Certification Authority
+      issuer.organizationName: cPanel, Inc.
+      modulus: c7ee2cbdf3b668c100ce2bb9c12912a7de648afaeca8448a258fb74a5963631d7c5b5f0c18646b61ff4aead1b604958f71df9e7990af2cd29e7427049083200551af16d27a1aa955ebada4ef3e35aa8c7e667b8e58ff30342560d18b17915ab992da97fd0faffa49b4a8a4bb71315fa1d96b9c50f6a08e9fa3247024371437a9e17491c95244b8ebc523abc8e8f0dc6c87d93d28e564aa0b25a92aa25ff38f659681765cdbd5fd4064e088eb7070a6963525fb2909a71b5055b3528090d76c3d1352985ffbc396f14b07d44eadc7ba8ed7f72704df58dc37850142a630312d7504098b2e2e4e60d7d6b509eeada999d659cb3122b452d91ec121e0156a73a057
+      modulus_length: 2048
+      not_after: '1609977599'
+      not_before: '1602115200'
+      serial: 8adce64bdd2ac237cba0defbaccf851d
+      signature_algorithm: sha256WithRSAEncryption
+      subject.commonName: grupogutti.com
+      validation_type: dv
+    grupogutti_com_dba28_405bf_1633446563_0a76c6558f3ef0cdbacefa01347e5c7b: 
+      created: '1601910563'
+      domains: 
+        - grupogutti.com
+        - mail.grupogutti.com
+        - www.grupogutti.com
+        - cpanel.grupogutti.com
+        - webmail.grupogutti.com
+        - webdisk.grupogutti.com
+        - cpcontacts.grupogutti.com
+        - cpcalendars.grupogutti.com
+      friendly_name: Cert for “grupogutti.com”
+      id: grupogutti_com_dba28_405bf_1633446563_0a76c6558f3ef0cdbacefa01347e5c7b
+      is_self_signed: 1
+      issuer.commonName: grupogutti.com
+      issuer.organizationName: ~
+      modulus: dba287d623f134564dbbedd1af54e2b15077b25045c8670c85edbb5667702e65a04aae209eba8911f1048074c0cb47409fcd635e9b450a109ec663eaf2e317b099e8a8ad729a484e787926be3e598498efbd9ed128e1126f439542fc0ce509fde0bde2a7fbfd4fb7883cf99a1c30b5af18bdc91c367be38a2619bc58ca345edac1f2bdfadc2c79af0d3073e58d60c1adef5301e048cbed816bcb4195af14385f5a79fae8e61bd6bdc1d476eebefca7048ad8392c40d1bb2c39fc27d985e87ad9c3e04e7bb457ef24506d5f962736db61fb6a05c9d58dd2026b738f25739b33f2ed86f1143df3213d35a2a36235c52ec7cbadd7cc5db23130b23968ffab1405bf
+      modulus_length: 2048
+      not_after: '1633446563'
+      not_before: '1601910563'
+      serial: 019708c25c
+      signature_algorithm: sha256WithRSAEncryption
+      subject.commonName: grupogutti.com
+      validation_type: ~
+  key: 
+    c7ee2_3a057_62787ab17d74e2c42fbece81c22539b8: 
+      created: '1602122765'
+      friendly_name: Key for “grupogutti.com” 1602122765.0
+      id: c7ee2_3a057_62787ab17d74e2c42fbece81c22539b8
+      modulus: c7ee2cbdf3b668c100ce2bb9c12912a7de648afaeca8448a258fb74a5963631d7c5b5f0c18646b61ff4aead1b604958f71df9e7990af2cd29e7427049083200551af16d27a1aa955ebada4ef3e35aa8c7e667b8e58ff30342560d18b17915ab992da97fd0faffa49b4a8a4bb71315fa1d96b9c50f6a08e9fa3247024371437a9e17491c95244b8ebc523abc8e8f0dc6c87d93d28e564aa0b25a92aa25ff38f659681765cdbd5fd4064e088eb7070a6963525fb2909a71b5055b3528090d76c3d1352985ffbc396f14b07d44eadc7ba8ed7f72704df58dc37850142a630312d7504098b2e2e4e60d7d6b509eeada999d659cb3122b452d91ec121e0156a73a057
+      modulus_length: 2048
+    dba28_405bf_81fd92cd4f81e72c1d277e4eada1e166: 
+      created: '1601910563'
+      friendly_name: Key for “grupogutti.com”
+      id: dba28_405bf_81fd92cd4f81e72c1d277e4eada1e166
+      modulus: dba287d623f134564dbbedd1af54e2b15077b25045c8670c85edbb5667702e65a04aae209eba8911f1048074c0cb47409fcd635e9b450a109ec663eaf2e317b099e8a8ad729a484e787926be3e598498efbd9ed128e1126f439542fc0ce509fde0bde2a7fbfd4fb7883cf99a1c30b5af18bdc91c367be38a2619bc58ca345edac1f2bdfadc2c79af0d3073e58d60c1adef5301e048cbed816bcb4195af14385f5a79fae8e61bd6bdc1d476eebefca7048ad8392c40d1bb2c39fc27d985e87ad9c3e04e7bb457ef24506d5f962736db61fb6a05c9d58dd2026b738f25739b33f2ed86f1143df3213d35a2a36235c52ec7cbadd7cc5db23130b23968ffab1405bf
+      modulus_length: 2048
+indexes: 
+  certificate: 
+    modulus: 
+      c7ee2cbdf3b668c100ce2bb9c12912a7de648afaeca8448a258fb74a5963631d7c5b5f0c18646b61ff4aead1b604958f71df9e7990af2cd29e7427049083200551af16d27a1aa955ebada4ef3e35aa8c7e667b8e58ff30342560d18b17915ab992da97fd0faffa49b4a8a4bb71315fa1d96b9c50f6a08e9fa3247024371437a9e17491c95244b8ebc523abc8e8f0dc6c87d93d28e564aa0b25a92aa25ff38f659681765cdbd5fd4064e088eb7070a6963525fb2909a71b5055b3528090d76c3d1352985ffbc396f14b07d44eadc7ba8ed7f72704df58dc37850142a630312d7504098b2e2e4e60d7d6b509eeada999d659cb3122b452d91ec121e0156a73a057: 
+        grupogutti_com_c7ee2_3a057_1609977599_14dfa37a2a82e86417e6f6d2e486593f: ~
+      dba287d623f134564dbbedd1af54e2b15077b25045c8670c85edbb5667702e65a04aae209eba8911f1048074c0cb47409fcd635e9b450a109ec663eaf2e317b099e8a8ad729a484e787926be3e598498efbd9ed128e1126f439542fc0ce509fde0bde2a7fbfd4fb7883cf99a1c30b5af18bdc91c367be38a2619bc58ca345edac1f2bdfadc2c79af0d3073e58d60c1adef5301e048cbed816bcb4195af14385f5a79fae8e61bd6bdc1d476eebefca7048ad8392c40d1bb2c39fc27d985e87ad9c3e04e7bb457ef24506d5f962736db61fb6a05c9d58dd2026b738f25739b33f2ed86f1143df3213d35a2a36235c52ec7cbadd7cc5db23130b23968ffab1405bf: 
+        grupogutti_com_dba28_405bf_1633446563_0a76c6558f3ef0cdbacefa01347e5c7b: ~
+    subject.commonName: 
+      grupogutti.com: 
+        grupogutti_com_c7ee2_3a057_1609977599_14dfa37a2a82e86417e6f6d2e486593f: ~
+        grupogutti_com_dba28_405bf_1633446563_0a76c6558f3ef0cdbacefa01347e5c7b: ~
+uniques: 
+  certificate: 
+    friendly_name: 
+      Cert for “grupogutti.com”: grupogutti_com_dba28_405bf_1633446563_0a76c6558f3ef0cdbacefa01347e5c7b
+      Cert for “grupogutti.com” 1602122765.0: grupogutti_com_c7ee2_3a057_1609977599_14dfa37a2a82e86417e6f6d2e486593f
+  key: 
+    friendly_name: 
+      Key for “grupogutti.com”: dba28_405bf_81fd92cd4f81e72c1d277e4eada1e166
+      Key for “grupogutti.com” 1602122765.0: c7ee2_3a057_62787ab17d74e2c42fbece81c22539b8
+    modulus: 
+      c7ee2cbdf3b668c100ce2bb9c12912a7de648afaeca8448a258fb74a5963631d7c5b5f0c18646b61ff4aead1b604958f71df9e7990af2cd29e7427049083200551af16d27a1aa955ebada4ef3e35aa8c7e667b8e58ff30342560d18b17915ab992da97fd0faffa49b4a8a4bb71315fa1d96b9c50f6a08e9fa3247024371437a9e17491c95244b8ebc523abc8e8f0dc6c87d93d28e564aa0b25a92aa25ff38f659681765cdbd5fd4064e088eb7070a6963525fb2909a71b5055b3528090d76c3d1352985ffbc396f14b07d44eadc7ba8ed7f72704df58dc37850142a630312d7504098b2e2e4e60d7d6b509eeada999d659cb3122b452d91ec121e0156a73a057: c7ee2_3a057_62787ab17d74e2c42fbece81c22539b8
+      dba287d623f134564dbbedd1af54e2b15077b25045c8670c85edbb5667702e65a04aae209eba8911f1048074c0cb47409fcd635e9b450a109ec663eaf2e317b099e8a8ad729a484e787926be3e598498efbd9ed128e1126f439542fc0ce509fde0bde2a7fbfd4fb7883cf99a1c30b5af18bdc91c367be38a2619bc58ca345edac1f2bdfadc2c79af0d3073e58d60c1adef5301e048cbed816bcb4195af14385f5a79fae8e61bd6bdc1d476eebefca7048ad8392c40d1bb2c39fc27d985e87ad9c3e04e7bb457ef24506d5f962736db61fb6a05c9d58dd2026b738f25739b33f2ed86f1143df3213d35a2a36235c52ec7cbadd7cc5db23130b23968ffab1405bf: dba28_405bf_81fd92cd4f81e72c1d277e4eada1e166

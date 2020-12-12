@@ -1,1 +1,0 @@
-{"filter":[{"actions":[{"action":"save","dest":"$home/mail/grupogutti.com/j.aguilera/.spam"}],"unescaped":1,"filtername":"spam","rules":[{"match":"contains","part":"$h_X-Spam-Status:","val":"Yes,","opt":"or"}]}],"version":2.2}

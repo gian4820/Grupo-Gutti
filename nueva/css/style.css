@@ -221,7 +221,7 @@ ol {
 	border-radius: 4px;
 }
 
-.site-btn {
+.site-btn{
 	font-size: 16px;
 	color: #ffffff;
 	background: #da1f14;
@@ -424,7 +424,7 @@ ol {
 	margin-bottom: 10px;
 }
 
-.header__widget h4 {
+.header__widget h4 a {
 	font-size: 22px;
 	color: #da1f14;
 }
@@ -1404,6 +1404,12 @@ ol {
 	font-weight: 600;
 	font-family: "Poppins", sans-serif;
 	margin-bottom: 30px;
+}
+
+.footer__address hr{
+	border-top: 1px solid #d41a1a;
+	width: 200px;
+
 }
 
 .footer__address a{
@@ -2579,10 +2585,11 @@ ol {
 	height: 50px;
 	width: 100%;
 	font-size: 15px;
-	color: #b7b7b7;
+	color: #5a5a5a;
 	padding-left: 20px;
 	border: 1px solid #e1e1e1;
 	margin-bottom: 30px;
+	
 }
 
 .contact__form form input::-webkit-input-placeholder {
@@ -2609,7 +2616,7 @@ ol {
 	height: 170px;
 	width: 100%;
 	font-size: 15px;
-	color: #b7b7b7;
+	color: #5a5a5a;
 	padding-left: 20px;
 	padding-top: 12px;
 	border: 1px solid #e1e1e1;

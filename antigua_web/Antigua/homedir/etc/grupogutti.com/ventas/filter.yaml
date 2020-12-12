@@ -1,0 +1,16 @@
+--- 
+filter: 
+  - 
+    actions: 
+      - 
+        action: save
+        dest: $home/mail/grupogutti.com/ventas/.spam
+    filtername: spam
+    rules: 
+      - 
+        match: contains
+        opt: or
+        part: "$h_X-Spam-Status:"
+        val: Yes,
+    unescaped: 1
+version: '2.2'

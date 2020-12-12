@@ -9,6 +9,8 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Grupo Gutti | Contacto</title>
 
+    <link rel="icon" type="image/png" href="img/logo/favicon.ico" sizes="16x16">
+
     <!-- Google Font -->
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap"
     rel="stylesheet">
@@ -33,38 +35,38 @@
     <div class="offcanvas-menu-overlay"></div>
     <div class="offcanvas-menu-wrapper">
         <div class="offcanvas__logo">
-            <a href="#"><img src="img/logo.png" alt=""></a>
+            <a href="#"><img src="img/logo/logo.png" alt="Logo"></a>
         </div>
         <div id="mobile-menu-wrap"></div>
         <div class="offcanvas__widget">
             <span>Llamanos por consultas</span>
-            <h4>+01 123 456 789</h4>
+            <h4><a href="tel:+5493516436957">(+54)9 351 643 6957</a></h4>
         </div>
     </div>
     <!-- Offcanvas Menu End -->
 
     <!-- Header Section Begin -->
-    <header class="header header-normal set-bg" data-setbg="img/little-header.jpg">
+    <header class="header">
         <div class="container-fluid">
             <div class="row">
                 <div class="col-lg-3">
-                        <div class="header__logo">
-                            <a href="index.html"><img src="img/logo/logo.png" alt="Gutti Logo"></a>
-                        </div>                  
+                    <div class="header__logo">
+                        <a href="index.html"><img src="img/logo/logo.png" alt="Gutti Logo"></a>
+                    </div>
                 </div>
                 <div class="col-lg-6">
                     <nav class="header__menu mobile-menu">
                         <ul>
                             <li><a href="./index.html">Home</a></li>
                             <li><a href="./about.html">Nosotros</a></li>
-                            <li><a href="#">Productos</a>
+                            <li><a>Productos</a>
                                 <ul class="dropdown">
                                     <li><a href="./portones-corredizos.html">Portones Corredizos</a></li>
                                     <li><a href="./portones-levadizos.html">Portones Levadizos</a></li>
                                     <li><a href="./portones-pivotantes.html">Portones Pivotantes</a></li>
                                     <li><a href="./puertas-ventanas.html">Puertas y ventanas</a></li>
-                                    <li><a href="./blog-details.html">Automatizaciones</a></li>
-                                    <li><a href="./blog-details.html">Servicio Tecnico</a></li>
+                                    <li><a href="#">Automatizaciones</a></li>
+                                    <li><a href="#">Servicio Tecnico</a></li>
                                 </ul>
                             </li>
                             <li class="active"><a href="./contact.html">Contacto</a></li>
@@ -82,6 +84,21 @@
         </div>
     </header>
     <!-- Header Section End -->
+
+    <!-- Breadcrumb Section Begin -->
+    <div class="breadcrumb-option spad set-bg" data-setbg="img/hero/hero1.jpg">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <div class="breadcrumb__text">
+                        <h2>Contacto</h2>
+                       
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Breadcrumb Section End -->
 
     <!-- Contact Section Begin -->
     <section class="contact spad">
@@ -173,23 +190,23 @@
             <div class="row">
                 <div class="col-lg-8">
                     <div class="contact__form">
-                        <form action="#">
+                        <form action="envia.php" method="POST">
                             <div class="row">
                                 <div class="col-lg-8 col-md-12 col-sm-12">
-                                    <input type="text" placeholder="Nombre">
+                                    <input name="nombre" type="text" placeholder="Nombre">
                                 </div>
 
                                 <div class="col-lg-8 col-md-12 col-sm-12">
-                                    <input type="text" placeholder="Telefono">
+                                    <input name="telefono" type="text" placeholder="Telefono">
                                 </div>
                                
                                 <div class="col-lg-8 col-md-12 col-sm-12">
-                                    <input type="text" placeholder="Email">
+                                    <input name="email" type="text" placeholder="Email">
                                 </div>
                                
                                 <div class="col-lg-8 col-md-12 col-sm-12">
-                                    <textarea placeholder="Consulta"></textarea>
-                                    <button type="submit" class="site-btn">Enviar</button>
+                                    <textarea name="consulta" placeholder="Consulta"></textarea>
+                                    <input type="submit" value="Enviar" class="site-btn">
                                 </div>
                             </div>
                         </form>
@@ -224,7 +241,7 @@
                 <div class="col-lg-3 col-md-6 col-sm-6">
                     <div class="footer__about">
                         <div class="footer__logo">
-                            <a href="#"><img src="img/logo.png" alt=""></a>
+                            <a href="index.html"><img src="img/logo/logo.png" alt="Gutti Logo"></a>
                         </div>
 
                         <div class="footer__social">
@@ -233,44 +250,10 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-2 offset-lg-1 col-md-3 col-sm-6">
-                    <div class="footer__widget">
-                        <h6>Compania</h6>
-                        <ul>
-                            <li><a href="#">About Us</a></li>
-                            <li><a href="#">Services</a></li>
-                            <li><a href="#">Our Works</a></li>
-                            <li><a href="#">Career</a></li>
-                            <li><a href="#">FAQs</a></li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-lg-2 col-md-3 col-sm-6">
-                    <div class="footer__widget">
-                        <h6>Servicios</h6>
-                        <ul>
-                            <li><a href="#">Architecture</a></li>
-                            <li><a href="#">Interior Design</a></li>
-                            <li><a href="#">Exterior Design</a></li>
-                            <li><a href="#">Planning</a></li>
-                        </ul>
-                    </div>
-                </div>
                 <div class="col-lg-4 col-md-6 col-sm-6">
                     <div class="footer__address">
-                        <h6><a href="contact.html">Contactenos</a></h6>
-
-                       
-                        
+                        <!-- <h6>Telefonos | Whatsapp</h6> -->
                         <ul>
-                            <li><a href="https://goo.gl/maps/UGNVeD9nv7NTbnoRA">
-                                    Hiper Construccion | Rodriguez del Busto<br />Stand 130
-                                </a>
-                            </li>
-                            <br>
-                            <li><a href="mailto:info@grupogutti.com">info@grupogutti.com</a></li>
-                            <li><a href="mailto:ventas@grupogutti.com">ventas@grupogutti.com</a></li>
-                            <br>
                             <li>
                                 <a href="tel:+5493516436957">(+54)9 351 643 6957 </a>  
                                 <a href="https://api.whatsapp.com/send?phone=+5493516436957&text=Hola,%20quería consultarle%20por" target="_blank"><i class="fa fa-2x fa-whatsapp"></i></a>
@@ -284,6 +267,28 @@
                                 <a href="tel:+5493512157171">(+54)9 351 215 7171 </a>  
                                 <a href="https://api.whatsapp.com/send?phone=+5493513239480&text=Hola,%20quería consultarle%20por" target="_blank"><i class="fa fa-2x fa-whatsapp"></i></a>
                             </li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="col-lg-4 col-md-6 col-sm-6">
+                    <div class="footer__address">
+                        <!-- <h6><a href="contact.html">Contactenos</a></h6> -->
+
+                       
+                        
+                        <ul>
+                            
+
+                            <li><a href="https://goo.gl/maps/UGNVeD9nv7NTbnoRA">
+                                    Hiper Construccion | Rodriguez del Busto<br />Stand 130
+                                </a>
+                            </li>
+                            <hr>
+                            <li><a href="mailto:info@grupogutti.com">info@grupogutti.com</a></li>
+                            <li><a href="mailto:ventas@grupogutti.com">ventas@grupogutti.com</a></li>
+                            <br>
+                            
                         </ul>
                     </div>
                 </div>

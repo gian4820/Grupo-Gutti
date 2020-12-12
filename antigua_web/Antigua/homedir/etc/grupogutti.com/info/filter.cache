@@ -1,0 +1,1 @@
+{"version":2.2,"filter":[{"rules":[{"part":"$h_X-Spam-Status:","match":"contains","opt":"or","val":"Yes,"}],"actions":[{"dest":"$home/mail/grupogutti.com/info/.spam","action":"save"}],"unescaped":1,"filtername":"spam"}]}
